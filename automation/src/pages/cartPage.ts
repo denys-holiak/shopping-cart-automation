@@ -1,8 +1,5 @@
 import type { Page } from '@playwright/test';
-import { AddItemForm } from '@src/components/addItemForm.js';
-import { CartList } from '@src/components/cartList.js';
-import { DiscountForm } from '@src/components/discountForm.js';
-import { OrderSummary } from '@src/components/orderSummary.js';
+import { AddItemForm, CartList, DiscountForm, OrderSummary } from '@src/components/index.js';
 
 export class CartPage {
   readonly addItemForm: AddItemForm;
